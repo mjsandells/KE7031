@@ -1,0 +1,37 @@
+If you are short on time please do the last one (set your python path to SMRT). None of these are obligatory - these are just tools that may make your life easier in the long run so worth pursuing.
+
+- clone this repository and let me know your GitHub ID (if you haven't) so I can add you as a collaborator (this will allow you to contribute and do the next step)
+
+- add a 1-line lyric to the lyrics.txt file and push it to the repository. To do this (use conda terminal)
+	git pull
+	(change file)
+	git add lyrics.txt
+	git commit
+	git push
+
+	if you encounter an error message or something you're not sure of, please post as an 'issue' in the GitHub repository [Issues>New issue (green button)]. Feel free to answer any of the issues too.
+
+- have a look at the numpyetc.ipynb for common imports you're likely to use
+- have a look at the ErrorChallenge.ipynb - can you solve the bugs?
+- have a look at error.pdf - this flow chart may help you interpret those error messages
+- have a look at pandas_nb.ipynb - this gives an introduction to data manipulation by importing a .csv with snowpit data
+- set your python path. 
+
+	On a mac, add this to your .profile (check for hidden files - it may exist or you can just create a text file with the name .profile if not):
+		export PYTHONPATH="the/path/to/your/smrt" <- replace this with where you put SMRT
+
+	On windows:
+
+
+    		Go to settings, search for 'edit the system environment variables'
+    		Click on 'Environment Variables'
+    		Create new system variable
+    		Name it PYTHONPATH
+    		Enter or browse to the path to your SMRT directory
+
+	Restart your computer then you should be able to run a jupyter notebook and just type
+		
+		import smrt
+	
+
+	Come along to the module room on Thursday 1pm if this doesn't work!
