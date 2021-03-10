@@ -1,6 +1,6 @@
 If you are short on time please do the last one (set your python path to SMRT). None of these are obligatory - these are just tools that may make your life easier in the long run so worth pursuing.
 
-- clone this repository and let me know your GitHub ID (if you haven't) so I can add you as a collaborator (this will allow you to contribute and do the next step)
+- clone this repository and let me know your GitHub ID (if you haven't) so I can add you as a collaborator (this will allow you to contribute and do the next step). If you have already cloned it, do 'git pull' to get the latest changes
 
 - add a 1-line lyric to the lyrics.txt file and push it to the repository. To do this (use conda terminal)
 	git pull
